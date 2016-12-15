@@ -23,7 +23,6 @@ script:
     - dotnet build www User
     - cd www
     - nvm install 6.9.2
-    - nvm use 6.9.2
     - npm install -g bower gulp-cli
     - npm install
     - bower install
