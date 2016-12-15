@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "bin",
+    "wwwroot/lib",
+    "node_modules"
+  ]
+}

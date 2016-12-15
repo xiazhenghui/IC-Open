@@ -1,0 +1,9 @@
+{
+  "name": "ic-open-www",
+  "private": true,
+  "dependencies": {
+    "requirejs": "^2.1.22",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,0 +1,14 @@
+﻿# Visual Studio 2015 cache/options directory
+.vs/
+.vscode/
+
+launchSettings.json
+project.lock.json
+
+# User-specific files
+*.suo
+*.user
+
+# dotnet generated
+bin/
+obj/
