@@ -6,6 +6,18 @@ solution: IC-Open.sln
 dist: trusty
 sudo: required
 
+branches:
+    only:
+        - master
+        - dev
+
+cache:
+    directories:
+        - $HOME/.nuget
+        - $HOME/.nvm
+        - $HOME/.npm
+        - $HOME/.cache
+
 script:
     - dotnet restore www User
     - dotnet build www User
